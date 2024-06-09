@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+<div class="header">
+    <h1>DIABETES PREDICTION</h1>
+</div>
+<div >
+
+  <form action="/result"  method="POST">
+
+    <label for="Pregnancies">Number of Pregnancies</label>
+    <input type="number" id="Pregnancies" name="Pregnancies" required min="0" max="69">
+    <br>
+    <label for="Glucose">Glucose Level</label>
+    <input type="number" id="Glucose" name="Glucose" required min="0" max="200">
+    <br>
+    <label for="BloodPressure">Diastolic Blood Pressure</label>
+    <input type="number" id="BloodPressure" name="BloodPressure" required min="0" max="122">
+    <br>
+    <label for="SkinThickness">Skin Thickness</label>
+    <input type="number" id="SkinThickness" name="SkinThickness" required min="0" max="100">
+    <br>
+    <label for="Insulin">Insulin</label>
+    <input type="number" id="Insulin" name="Insulin" required min="0">
+    <br>
+    <label for="BMI">Body Mass Index</label>
+    <input type="number" id="BMI" name="BMI" required min="0" max="67">
+    <br>
+    <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function</label>
+    <input type="number" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" required min="0">
+    <br>
+    <label for="Age">Age</label>
+    <input type="number" id="Age" name="Age" required min="0" max="100">
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
